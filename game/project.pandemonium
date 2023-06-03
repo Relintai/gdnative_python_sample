@@ -11,7 +11,16 @@ config_version=4
 [application]
 
 config/name="Sample"
+run/main_scene="res://Main.tscn"
 config/icon="res://icon.png"
+
+[editor_plugins]
+
+enabled=PoolStringArray( "res://addons/pythonscript_repl/plugin.cfg" )
+
+[gdnative]
+
+singletons=[ "res://new_gdnativelibrary.tres" ]
 
 [physics]
 
