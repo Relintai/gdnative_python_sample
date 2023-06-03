@@ -20,7 +20,7 @@ enabled=PoolStringArray( "res://addons/pythonscript_repl/plugin.cfg" )
 
 [gdnative]
 
-singletons=[ "res://new_gdnativelibrary.tres" ]
+singletons=[ "res://pythonscript.gdnlib" ]
 
 [physics]
 

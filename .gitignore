@@ -7,6 +7,7 @@ __pycache__/**
 
 game/addons/
 gdnative_python/
+game/pythonscript.gdnlib
 
 *.pyc
 
