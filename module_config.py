@@ -7,7 +7,7 @@ engine_repository = [ ['https://github.com/Relintai/pandemonium_engine.git', 'gi
 module_install_folder = './pandemonium_engine/custom_modules/'
 
 module_repositories = [
-	[ ['https://github.com/Relintai/gdnative.git', 'git@github.com:Relintai/gdnative.git'], 'gdnative', '' ],
+	#[ ['https://github.com/Relintai/gdnative.git', 'git@github.com:Relintai/gdnative.git'], 'gdnative', '' ],
 ]
 
 removed_modules = [
@@ -20,7 +20,7 @@ third_party_addon_repositories = [
 ]
 
 # Relative to the engine directory
-custom_module_folders = 'custom_modules'
+custom_module_folders = ''
 
 slim_args = ''
 slim_args += 'module_bmp_enabled=no '
