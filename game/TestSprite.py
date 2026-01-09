@@ -1,5 +1,6 @@
 from pandemonium import exposed, export
 from pandemonium import *
+import math 
 
 
 @exposed
@@ -20,4 +21,4 @@ class TestSprite(Sprite):
 		
 	def _process(self, delta):
 		self.adelta += delta * 10
-		self.position = Vector2(PMath.sin(self.adelta) * 40, PMath.cos(self.adelta) * 40)
+		self.position = Vector2(math.sin(self.adelta) * 40, math.cos(self.adelta) * 40)
