@@ -13,8 +13,9 @@ Sample project / testbed for the https://github.com/Relintai/gdnative_python pan
 7. Run `gen_copy_headers.sh`: `./gen_copy_headers.sh`
 8. Go into gdnative python: `cd gdnative_python`.
 9. Set up venvs, python modules etc, and build.
-10. go out `cd ..`
-11. Run: `./ged`
+10. Unzip the contents of the built zip into the `../game` folder.
+11. go out `cd ..`
+12. Run: `./ged`
 
 ## Opening the project
 
