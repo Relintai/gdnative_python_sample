@@ -6,16 +6,17 @@ Sample project / testbed for the https://github.com/Relintai/gdnative_python pan
 
 1. Clone this repository.
 2. cd into the new folder: `cd gdnative_python_sample`
-3. Setup the engine: `scon` or `scons rt=ssh`
+3. Setup the engine: `scons` or `scons rt=ssh`
 4. Propably update the engine `scons a=u`
 5. Clone gdnative python: `git clone git@github.com:Relintai/gdnative_python.git`
-6. Compile the engine: `scons bel_strip -j4`.
-7. Run `gen_copy_headers.sh`: `./gen_copy_headers.sh`
-8. Go into gdnative python: `cd gdnative_python`.
-9. Set up venvs, python modules etc, and build.
-10. Unzip the contents of the built zip into the `../game` folder.
-11. go out `cd ..`
-12. Run: `./ged`
+6. Set up build.config if you want to `cp build.config.example build.config`.
+7. Compile the engine: `scons bel_strip -j4`.
+8. Run `gen_copy_headers.sh`: `./gen_copy_headers.sh`
+9. Go into gdnative python: `cd gdnative_python`.
+10. Set up venvs, python modules etc, and build.
+11. Unzip the contents of the built zip into the `../game` folder.
+12. go out `cd ..`
+13. Run: `./ged`
 
 ## Opening the project
 
